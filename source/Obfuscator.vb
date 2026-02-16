@@ -110,7 +110,8 @@ Module Obfuscator
                              "ping", "popd", "pushd", "rd", "ren", "rename", "replace", "rmdir", "robocopy", "sc", "schtasks", "shutdown",
                              "sort", "subst", "systeminfo", "taskkill", "tasklist", "time", "timeout", "tree", "type", "ver", "verify",
                              "vol", "xcopy", "shift", "bcdedit", "cipher", "cleanmgr", "driverquery", "gpupdate", "ipconfig", "nlsfunc",
-                             "openfiles", "pathping", "powercfg", "print", "recover", "relog", "remsvc", "sfc", "shadow", "tzutil", "vssadmin", "wbadmin", "wevtutil"}
+                             "openfiles", "pathping", "powercfg", "print", "recover", "relog", "remsvc", "sfc", "shadow", "tzutil", "vssadmin", "wbadmin", "wevtutil",
+                             "mklink"}
 
 
         Dim operatorMap As New Dictionary(Of String, String)()
